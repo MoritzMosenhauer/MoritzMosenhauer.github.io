@@ -15,6 +15,11 @@
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<style> 
+		p.hidden
+		{ display:none; 
+		} 
+		</style>
 	</head>
 	<body>
 
@@ -34,18 +39,23 @@
 		<!-- One -->
 			<section id="one" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/titlepic.JPG" alt="" /></span>
+					<span class="image fit primary"><img src="images/bg.PNG" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Let me introduce myself</h2>
 						</header>
-						<p>I am a student of the Ph.D. in Economics program at the University of Glasgow under the supervision of Prof. Sayantan Ghosal and Prof. Yiannis Vailakis. My research focus lies in Behavioural Economics. Specifically, I investigate how people allocate their attention using theoretical and empirical methods.</p>
+						<p>I am a student of the Ph.D. in Economics program at the University 
+						of Glasgow under the supervision of Prof. Sayantan Ghosal and Prof. 
+						Yiannis Vailakis. My research focus lies in Behavioural Economics. 
+						Specifically, I investigate how people allocate their attention using 
+						theoretical and empirical methods.</p>
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
+					<a href="#three" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
-
+		
 		<!-- Two -->
+		<!--
 			<section id="two" class="main special">
 				<div class="container">
 					<span class="image fit primary"><img src="images/titlepic.JPG" alt="" /></span>
@@ -76,11 +86,12 @@
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
+		-->
 		<!--
 		<!-- Three -->
 			<section id="three" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/titlepic.JPG" alt="" /></span>
+					<span class="image fit primary"><img src="images/bg.PNG" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Résumé</h2>
@@ -119,7 +130,7 @@
 								<li><i>Oct 2012 - Feb 2013:</i> Chinese Language Course in Kunming, China
 							<p></p>
 						</div>
-						<p><b>To download my full CV, please click <a href="https://github.com/MoritzMosenhauer/MoritzMosenhauer.github.io/raw/master/files/cv2016.pdf">here</a>.</b></p>
+						<p><b>To download my full CV, please click <a href="https://github.com/MoritzMosenhauer/MoritzMosenhauer.github.io/raw/master/files/CV_MoritzMosenhauer.pdf">here</a>.</b></p>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
 				</div>
@@ -129,12 +140,59 @@
 		<!-- Four -->
 			<section id="four" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/titlepic.JPG" alt="" /></span>
+					<span class="image fit primary"><img src="images/bg.PNG" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Research</h2>
 						</header>
-						<p>No articles or working papers so far.</p>
+						<div align="left">
+						Work in progress:<br>
+						<ul>
+							<li>Optimal Tunnelling<br>
+							<script type="text/javascript">
+							function toggleClock() { 
+								// get the clock 
+								var myClock = document.getElementById('tunnelabstr');
+
+								// get the current value of the clock's display property 
+								var displaySetting = myClock.style.display;
+
+								// also get the clock button, so we can change what it says 
+								var clockButton = document.getElementById('clockButton');
+				
+								// now toggle the clock and the button text, depending on current state
+								if (displaySetting == 'block') { 
+									// clock is visible. hide it
+									myClock.style.display = 'none';
+									// change button text
+									clockButton.innerHTML = 'Show abstract';
+								}
+								else { 
+									// clock is hidden. show it 
+									myClock.style.display = 'block';
+									// change button text
+									clockButton.innerHTML = 'Hide abstract';
+								}
+							}  
+							</script>
+
+							<button onclick="toggleClock()" id="clockButton" class="special">Show abstract</button> 
+							<p id="tunnelabstr" class="hidden"><font size="2">
+							This paper sketches a model that endogenously generates tunnelling as an 
+							agent's optimal response to exogenous incentives. An agent who is 
+							cognitively constrained by a limited channel of processing capacity may 
+							choose to limit her potential of information acquisition by categorically 
+							blinding out certain aspects of the world. At the heart of this effect 
+							lies an interplay between two systems of attention allocation: a 
+							goal-driven/top-down system and a stimulus-driven/bottom-up system. 
+							Allowing for a larger impact of the bottom-up component in the attention 
+							allocation strategy heightens the agent's capability to react to unusual 
+							occurrences in nature but also makes the agent more distractible. 
+							I provide a new framework incorporating both systems of attention 
+							allocation, which highlights the agent's optimal strategy in reconciling 
+							these conflicting forces.
+							</font></p>
+						</div>
 					</div>
 					<a href="#five" class="goto-next scrolly">Next</a>
 				</div>
@@ -145,7 +203,7 @@
 		<!-- Five -->
 			<section id="five" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/titlepic.JPG" alt="" /></span>
+					<span class="image fit primary"><img src="images/bg.PNG" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Teaching</h2>
@@ -165,12 +223,22 @@
 		<!-- Six -->
 			<section id="six" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/titlepic.JPG" alt="" /></span>
+					<span class="image fit primary"><img src="images/bg.PNG" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Other</h2>
 						</header>
-						<p>I am a student of the Ph.D. in Economics program at the University of Glasgow under the supervision of Prof. Sayantan Ghosal and Prof. Yiannis Vailakis. My research focus lies in Behavioural Economics. Specifically, I investigate how people allocate their attention using theoretical and empirical methods.</p>
+						<div align="left">
+						Awards:<br>
+						<ul>
+							<li>Adam Smith Business School Scholarship for Doctoral Studies
+						</ul>
+						Activities:<br>
+						<ul>
+							<li>Co-Founder and President of the Glasgow Brown Bag Seminars in 
+							Microeconomics
+						</ul>
+						</div>
 					</div>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
@@ -521,14 +589,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</div>
 				</div>
 				<footer>
+					<div style="opacity:1">
 					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/moritz-mosenhauer-9610ab119" class="icon alt fa-linkedin-square"><span class="label">Linked-In</span></a></li>
-						<li><a href="#" class="icon alt fa-university"><span class="label">Uni-Page</span></a></li>
+						<li><a href="https://www.linkedin.com/in/moritz-mosenhauer-9610ab119" class="icon alt fa-linkedin-square" target="_blank"><span class="label">Linked-In</span></a></li>
+						<li><a href="#" class="icon alt fa-university" target="_blank"><span class="label">Uni-Page</span></a></li>
 						<li><a href="mailto:m.mosenhauer.1@research.gla.ac.uk" class="icon alt fa-envelope"><span class="label">EMail</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
 					</ul>
+					</div>
 				</footer>
 			</section>
 
