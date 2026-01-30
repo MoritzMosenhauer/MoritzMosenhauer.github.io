@@ -456,8 +456,40 @@
 						<h3>WORKING PAPERS:</h3>
 						<ul>
 												
-							<li>none right now<br>
+							<li>Distress vs. Eustress: The moderating role of emotional valence on the relationship between stress and effort provision (with Verena Pendic and Johannes Siebert) <i>submitted</i> <a href="https://drive.google.com/file/d/1nEClUzmQm53RRAT8yDKdTk2I6m-6ttHB/view?usp=drive_link" target="_blank">manuscript</a> <a href="https://drive.google.com/file/d/1cmYVwxHD28iGQaHFHKmvRAe7ASpDBjml/view?usp=sharing" target="_blank">replicationPackage</a> <br>
+							<script type="text/javascript">
+							function toggleClockDistress() { 
+								// get the clock 
+								var myClockDistress = document.getElementById('Distressabstr');
 
+								// get the current value of the clock's display property 
+								var displaySettingDistress = myClockDistress.style.display;
+
+								// also get the clock button, so we can change what it says 
+								var clockButtonDistress = document.getElementById('clockButtonDistress');
+				
+								// now toggle the clock and the button text, depending on current state
+								if (displaySettingDistress == 'block') { 
+									// clock is visible. hide it
+									myClockDistress.style.display = 'none';
+									// change button text
+									clockButtonDistress.innerHTML = 'Show abstract';
+								}
+								else { 
+									// clock is hidden. show it 
+									myClockDistress.style.display = 'block';
+									// change button text
+									clockButtonDistress.innerHTML = 'Hide abstract';
+								}
+							}  
+							</script>
+							
+							<button onclick="toggleClockDistress()" id="clockButtonDistress" class="special">Show abstract</button> 
+							<p id="Distressabstr" class="hidden"><font size="2">
+							This study investigates the relationship between stress and effort. Our preregistered design considers both the direct effect of stress and how emotional valence moderates it, turning it from a destructive to a constructive force. We administer an experiment via survey with observationally elicited stress levels, exogenously manipulated emotions using videoclips and a real-effort task as the dependent variable. We find strong and robust non-linear effects of both stress decreasing effort (i.e., distress) and stress increasing effort (i.e., eustress), but no evidence that this is related to emotional valence. Our findings may help explain the mixed evidence in previous studies. Despite the benefits of stress, we argue for interventions that reduce stress.
+							</font></p>
+						
+						
 							<ul style="list-style-type:none">
 									<li></li>
 								</ul>
